@@ -27,9 +27,9 @@ stages {
 		when {
 			expression { env.GIT_BRANCH == 'origin/main' }
 		}
-			steps {
-				echo 'Deploying...'
-			}
+		steps {
+			echo 'Deploying...'
+		}
 	}
 }
 }
